@@ -1,0 +1,37 @@
+/*		Some Chess, a PHP multi-player chess server.	*/
+/*		Copyright (C) 2007 Jon Link						*/
+* {padding:0;margin:0;border:0}
+html,body {overflow:visible}
+body {background:transparent;color:#333;font:0.8em Lucida Grande, Tahoma, sans-serif}
+p {margin:0.1em 0}
+a {float:left;display:inline;text-decoration:none}
+h3 {font-size:0.9em;margin:0 0 0.5em}
+form {float:left;display:inline}
+#board-box {float:left;height:29.5em;width:29.5em;margin:4em 0 0 2em;padding:0.8em 0.8em 2em 2.5em;background:#9D7348;color:#664729}
+#board-box h3, #board-box h4 {float:left;display:inline;width:3.4em;font-size:1em;text-align:center}
+#board-box h4 {width:auto;margin-left:0.8em;padding-top:1em}
+.sq {width:3.4em;height:3.4em}
+#history-box {float:right;height:42em;width:13em;margin:3em 0 0 0.5em}
+#history {height:95%;width:96%;margin-top:0.5em;padding:0.5em 0 0 2%;overflow:auto;font-size:0.9em}
+#history h2 {font-size:1em;margin:0 0 0.7em 0.5em}
+.movenum {float:left;width:1.8em;padding-right:0.4em;text-align:right}
+.move {float:left;width:5em;margin-right:0.6em}
+#info {float:left;width:31.75em;height:5em;margin:2em 0 0 2em;padding:0.4em 1%;background:#B0C9E3}
+.badmove {color:#8C2721}
+.badmove h3 {font-size:1.2em}
+.look, .moving {margin-bottom:0.4em;padding:0.3em 0.1em;background:#2A5581;color:#fff;font-size:1em;text-align:center}
+.moving {padding:0.1em;background:#8aacd0;border:1px #7da3cb solid;font-weight:700;color:#003366}
+#menu {position:absolute;top:0;left:0}
+.butt, a.butt:link, a.butt:visited {margin-left:0.2em;padding:0.1em 0.7em;background:#ccc;border:1px #bcbcbc solid;font-weight:700;font-size:1.1em;font-variant:small-caps;color:#323232}
+a.butt {height:1.35em}
+.butt:hover, a.butt:hover {background:#999;color:#efefef;border:1px #888 solid}
+.dialog {position:absolute;top:14.5em;left:7em;width:20em;height:6em;padding:1em;z-index:99;opacity:0.8}
+.dialog_content {padding:0.5em;background:#e2e2e2}
+.dialog_content form {float:left;margin:1em 0.3em 0 0.5em}
+.dialog_content p {display:block;clear:both}
+.xb2, .xb3 {height:0.15em}
+.xb1, .xb2, .xb3, .xb4 {display:block;background:#e2e2e2;overflow:hidden}
+.xb1 {margin:0 0.35em;height:0.1em}
+.xb2 {margin:0 0.2em}
+.xb3 {margin:0 0.1em}
+.xb4 {height:0.1em;margin:0 0.1em}

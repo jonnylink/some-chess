@@ -1,0 +1,76 @@
+/********************************************************************************
+** "Some Chess" some rights reserved 2007
+** Some Chess written by Jon Link
+** 
+** This program is free software; you can redistribute it and/or
+** modify it under the terms of the GNU General Public License 
+** as published by the Free Software Foundation; either version 2.1 
+** of the License, or (at your option) any later version.
+** 
+** This program is distributed in the hope that it will be useful,
+** but WITHOUT ANY WARRANTY; without even the implied warranty of
+** MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+** General Public License for more details.
+** 
+** You should have received a copy of the GNU General Public License 
+** along with this program; if not, write to the Free Software Foundation, 
+** Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
+**
+** The images found in the folder alt-pieces [p,r,n,q,k][d,l][d,l].png are GPL, 
+** from Wikimedia Commons, see gpl.txt
+**
+** All other images are ©Jon Link and may be used freely but only with permission
+**
+** a small portion of the code to display the chess board 
+** was taken from phpChessBoard written by Andreas Stieger
+**********************************************************************************/
+
+
+These are mostly to help me with debugging, they are also designed to make it so that people can 
+more easily report any bugs they run into and to not give outsiders too much info about the database. 
+The error codes are letters followed by numbers, the letters correspond to a specific function or 
+call while the numbers specify the exact point at which the error is occuring.  Below is a key for 
+the possible errors.
+
+
+ERROR CODES:
+
+md : mated function (game_func.php)
+rn : resign function (game_func.php)
+dw : draw function (game_func.php)
+ud : undo function (game_func.php)
+udm: undo (menu_func.php)
+ed : end game function (game_func.php)
+kc : kill chat function (game_func.php)
+pp : pasrse pgn function (game_func.php)
+lo : logout (logout.php)
+rg : self-register function (register.php)
+pl : players stats/info (players.php)
+in : install function (install.php)
+up : update function (install.php)
+us : update stats function (install.php)
+op : admin options page (options.php)
+uo : update options function (admin.php)
+ci : update user profile function (menu_func.php)
+iv : invite player function (menu_func.php)
+pi : upload player image function (menu_func.php)
+pg : import PGN function (menu_func.php)
+ng : new game function (game_func.php)
+ch : display chat (chat.php)
+si : sign-in function (login.php)
+rq : retrieve security question function (login.php)
+rp : request new password function (login.php)
+ex : export pgn (export.php)
+ut : update time online
+mp : menu page call to players DB (menu.php)
+mg : menu page call to games DB (menu.php)
+ru : remove user function (admin.php)
+cp : change user level function (admin.php)
+bg : chess board page call to games DB (board.php)
+sc : submit new chat (game.php)
+ui : get user image (game.php)
+gg : game page call to games DB (game.php)
+mn : moves to png function (game_func.php)
+im : info page call to moves DB (info.php)
+dh : query to moves DB (displayMinimal.php)
+vp : verify player belongs in game (game.php)

@@ -1,0 +1,31 @@
+<?php //--(v2.0rc3)  belongs to: files:	options
+define('errorDBStr', 'EERREUR lors de la connexion &agrave; la base : ');
+$opStr['a'] = 'Soumettre';
+$opStr[0] = 'Nom de l\'hôte sur lequel la base de donn&eacute;e Some Chess est install&eacute;e';
+$opStr[1] = 'Nom de l\'utilisateur de la base de donn&eacute;e utilis&eacute;e par Some Chess';
+$opStr[2] = ' Mot de passe d\'acc&egrave;s &agrave; la base de donn&eacute;e utilis&eacute;e par Some Chess';
+$opStr[3] = 'Nom de la base de donn&eacute;e qui abrite Some Chess';
+$opStr[4] = 'Ajouter &eacute;ventuellement un pr&eacute;fixe au nom des tables';
+$opStr[5] = 'Le domaine dans lequel Some Chess est situ&eacute;';
+$opStr[6] = 'Langage utilis&eacute;';
+$opStr[7] = 'Pr&eacute;ciser ici si Some Chess est install&eacute; dans un sous-dossier';
+$opStr[8] = 'Les messages importants et les sauvegardes seront exp&eacute;di&eacute;s &agrave; cette adresse.';
+$opStr[9] = 'Envoyer la sauvegarde MySQL &agrave; destination de l\'adresse de courriel de l\'administrateur';
+$opStr[10] = 'Enregistrer la sauvegarde MySQL dans le dossier de sauvegarde inclus (backup folder)';
+$opStr[11] = 'Afficher l\'option de mise &agrave; jour dans la zone administrateur.';
+$opStr[12] = 'Afficher les options de sauvegarde dans la zone administrateur.';
+$opStr[13] = 'Rafra&icirc;chissement de l\'&eacute;chiquier en secondes (0 pour aucun) ';
+$opStr[14] = 'Rafra&iuml;chissement de la fen&ecirc;tre de chat (0 pour aucun)';
+$opStr[15] = 'Afficher le lien des statistiques du joueur';
+$opStr[16] = 'Afficher la fen&ecirc;tre de chat';
+$opStr[17] = 'Afficher l\'image du joueur';
+$opStr[18] = 'Dossier d\'enregistrement des images de joueurs';
+$opStr[19] = 'Autoriser l\'annulation des coups';
+$opStr[20] = 'Envoyer un courriel aux adversaires pour les informer de chaque nouveau coup';
+$opStr[21] = 'Effacer le chat li&eacute; &agrave; une partie lorsqu\'elle se termine';
+$opStr[22] = 'Effacer l\'historique des mouvements des parties termin&eacute;es (les donn&eacute;es PGN seront tout de m&ecirc;me conserv&eacute;e pour permettre l\'exportation)';
+$opStr[23] = 'Niveau d\'autorisation par d&eacute;faut des nouveaux utilisateurs (0 = ne peut inviter, 1 = peut inviter, 4 = administrateur)';
+$opStr[24] = 'Nombre de jours avant de pouvoir terminer une partie';
+$opStr[25] = 'Permettre aux internautes de s\'inscrire sans invitation';
+$opStr[26] = 'Activate the verification code for open registration';
+?>

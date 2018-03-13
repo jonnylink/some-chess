@@ -1,0 +1,76 @@
+/*		Some Chess, a PHP multi-player chess server.	*/
+/*		Copyright (C) 2007 Jon Link 					*/
+
+* {padding:0;margin:0}
+body {background:#bfbe9d;color:#444;font-size:0.8em;font-family:Lucida Grande, Tahoma, sans-serif}
+a {text-decoration:none;color:#555}
+a:hover {text-decoration:underline}
+h3 {margin:0.4em;font-size:1.1em;font-weight:700}
+form, #regBox {
+	background:url('img/logo.png') no-repeat;
+	color:#333;
+	margin:10em auto 0 auto;
+	height:275px;
+	width:275px
+}
+#login div {margin:0 auto;padding-top:11em;width:18em}
+form div p {text-align:right;margin:0.2em}
+#lostpass {margin-left:2em;clear:both}
+input {
+	background:#B0C9E3;
+	border:0;
+	margin:0.4em 0.3em 0 0.4em;
+	padding:0.2em 0 0.1em 0.2em;
+	color:#323232;
+	width:11.5em
+}
+.butt {
+	background:#fff url('img/butt.png') bottom repeat-x;
+	border:1px #ccc solid;
+	height:1.7em;
+	width:6em;
+	color:#333;
+	font-size:1.1em;
+	font-weight:700;
+	font-variant:small-caps;
+	text-align:center
+}
+.butt:hover {
+	background:url('img/butt-d.png') bottom repeat-x;
+	border:1px #aaa solid
+}
+.message, .error {
+	background:#dbdbdb;
+	border:3px double #666;
+	padding:3em;
+	width:15em;
+	margin:1em auto;
+	text-align:center
+}
+.error {color:#8C2721}
+#config-error {
+	margin-top:10em;
+	width:40em;
+	text-align:left
+}
+#config-error p {margin-top:0.8em}
+#regBox {
+	background:#dbdbdb;
+	border:1px solid #bbb;
+	margin-top:1em;
+	height:auto
+}
+#regBox div {margin:1.1em auto;width:20em}
+#ver {
+	color:#71705d;
+	position:absolute;
+	bottom:1em;
+	left:1em;
+	font-size:0.8em
+}
+img {
+	display:block;
+	border:1px solid #666;
+	margin-top:1em
+}
+.reg {position:absolute;top:2em;left:2em}

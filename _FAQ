@@ -1,0 +1,53 @@
+FREQUENTLY ASKED QUESTIONS
+updated: 2007.03.30
+
+
+Q. 	Can I play Some Chess against the computer?
+A. 	Nope.  That's a whole lot of AI that I don't have time to program.  Some Chess is done in my 
+	free time, and I don't want to spend all my free time writing chess AI.  With that said, if you 
+	want to donate money towards me writing an AI we could talk about that— but contact me first if 
+	that's what you want.
+	
+Q.	Can I use Some Chess on my website?
+A.	Yes, of course.
+
+Q.	Can I charge people to play?
+A.	No.
+
+Q.	Can I charge for anything?
+A. 	Yes, you can charge to support and expand Some Chess, but you must keep the license and share
+	any of the code you change/create for Some Chess (contact me: jon@atomiclemur.com).
+
+Q.	I get a message that says something like this, "Failed opening 'languages/_main.php'" What am I 
+	doing wrong?
+A.	You need to specify the language in the config file. (by default it is "en" so you probably 
+	just erased it)
+
+Q.	I get an message that says something like this, "A link to the server could not be established" 
+	What am I doing wrong?
+A.	I can't tell you for sure, but I can say that your connection to the MySQL table isn't happening.  
+	Check to make sure you are using the right information (host, username, password, database name)
+	in the config file
+	
+Q.	I sent you an email that just said "what is wrong?"  Why didn't you help me?
+A.	I'm sorry, but if you don't have the time to write clearly what is wrong then I don't have the 
+	time to write back and ask for more details.  Send me an email again asking a specific question 
+	and I'll get back to you as soon as I can.  Just remember Some Chess is free, so I can't drop 
+	everything to answer your question.
+	
+Q.	Some Chess isn't available in my language, would you like help with a localization?
+A.	YES!!!  I would love to get Some Chess in as many languages as possible.  The more people that 
+	can use this the better, I hate the idea of excluding people because they can't read english.
+	
+Q.	How can I contribute?
+A.	There are many ways.  You could submit bug reports, ideas, code or donations.  Heck even just 
+	sending an email to say thanks contributes positively to my moral for the project.
+
+Q.	What happens when I send ideas or code?
+A.	When I am sent ideas or code I think about how it fits into the Some Chess project.  If it seems
+	to go beyond what I think of as Some Chess' vision (to have an simple, clean, and fun chess
+	server) than I will pass on it.  If I think it fits nicely with that vision then I'll work on 
+	incorporating it into the project.  Either way you'll have my sincere appreciation.
+	
+Q.	You haven't answered my quesiton here, how can I contact you?
+A.	Either by using the form at http://atomiclemur.com or by emailing jon@atomiclemur.com

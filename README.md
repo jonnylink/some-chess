@@ -1,5 +1,5 @@
 # some-chess
-A PHP, MySQL correspondent chess app. This was written in 2005-2006. It was adapted into a Facebook app, into Google Earth (somehow) and translated into several languages.
+A PHP, MySQL correspondent chess app. This was written in 2005-2006. It was adapted into a Facebook app, into Google Earth (somehow) and translated into several languages. If you played chess on Facebook, it was likely a port of this. It is also what became chess.com
 
 ---
 
